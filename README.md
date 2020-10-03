@@ -3,7 +3,18 @@
 **Chaitanya Afle<sup>1,2</sup>, Duncan A. Brown<sup>1, 2</sup>**
 
 **<sup>1</sup>Department of Physics, Syracuse University, Syracuse, NY 13244, USA**
+
 **<sup>2</sup>Kavli Institute for Theoretical Physics, University of California, Santa Barbara, CA 93106, USA**
+
+## Introduction
+
+This notebook is a companion to Afle & Brown (2020) posted at [arxiv:](url to archive). In the paper we investigate the ability of Advanced LIGO, Cosmic Explorer 1, and Cosmic Explorer 2 to measure the physical propeties of core-collapse supernovae through its gravitational-wave radiation. This notebook demonstrates the three salient results of this work:
+
+1. Principal components that form our waveform model. The principal components are stored in [principal_components.hdf](https://github.com/sugwg/sn-core-bounce-pe/blob/master/principal_components_files/principal_components.hdf).
+
+2. The map between the model parameters (principal components and their coefficients) and physical parameters (core rotation rate \\( \beta \\) and postbounce oscillation frequency \\( f_{peak} \\)).
+
+3. Extracting the posteriors of model parameters from [posterior files](https://github.com/sugwg/sn-core-bounce-pe/tree/master/posterior_files) and using the map to transform these posteriors of physical parameters. 
 
 ## License
 
