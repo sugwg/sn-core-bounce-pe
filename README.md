@@ -12,7 +12,7 @@ This notebook is a companion to Afle & Brown (2020) posted at [arxiv:](url to ar
 
 1. Principal components that form our waveform model. The principal components are stored in [principal_components.hdf](https://github.com/sugwg/sn-core-bounce-pe/blob/master/principal_components_files/principal_components.hdf).
 
-2. The map between the model parameters (principal components and their coefficients) and physical parameters (core rotation rate \\( \beta \\) and postbounce oscillation frequency \\( f_{peak} \\)).
+2. The map between the model parameters (principal components and their coefficients) and physical parameters (core rotation rate $\beta$ and postbounce oscillation frequency $f_{peak}$).
 
 3. Extracting the posteriors of model parameters from [posterior files](https://github.com/sugwg/sn-core-bounce-pe/tree/master/posterior_files) and using the map to transform these posteriors of physical parameters. 
 
