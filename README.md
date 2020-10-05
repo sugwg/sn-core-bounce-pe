@@ -8,7 +8,7 @@
 
 ## Introduction
 
-This notebook is a companion to Afle & Brown (2020) posted at [arxiv:](url to archive). In the paper we investigate the ability of Advanced LIGO, Cosmic Explorer 1, and Cosmic Explorer 2 to measure the physical propeties of core-collapse supernovae through its gravitational-wave radiation. This notebook demonstrates the three salient results of this work:
+This notebook is a companion to Afle & Brown (2020) posted at [arxiv:2010.00719](https://arxiv.org/abs/2010.00719). In the paper we investigate the ability of Advanced LIGO, Cosmic Explorer 1, and Cosmic Explorer 2 to measure the physical propeties of core-collapse supernovae through its gravitational-wave radiation. This notebook demonstrates the three salient results of this work:
 
 1. Principal components that form our waveform model. The principal components are stored in [principal_components.hdf](https://github.com/sugwg/sn-core-bounce-pe/blob/master/principal_components_files/principal_components.hdf).
 
@@ -48,3 +48,5 @@ The authors thank Adam Burrows, Daniel Finstad, and Chris Fryer for helpful disc
 The authors were supported by National Science Foundation awards PHY-1707954, PHY-1836702, and PHY-2011655. The authors thank the partial support from National Science Foundation award PHY-1748958. Computational work was supported by Syracuse University and National Science Foundation award OAC-1541396.
 
 ### Authors contributions
+
+Conceptualization, CA and DAB; Methodology, CA and DAB; Software: CA; Investigation: CA; Resources: DAB; Writing: CA and DAB; Visualization: CA and DAB; Supervision: DAB; Project Administration: DAB; Funding Acquisition: DAB.
